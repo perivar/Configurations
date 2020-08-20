@@ -28,3 +28,11 @@ To update the graphics and icons on the display:
 - Power off the machine.
 - Remove the SD card from the back of the display.
 - Power on to confirm a successful flash.
+
+## Note when updating the Display
+
+For this to work:
+- Make sure the card you choose is formatted fat32 AND also your allocation size is 4k
+- When updating you should see blue screen followed by orange
+- If you are using a SD card which is not fat32 or not 4k it will act like its flashing blue (very quickly) then orange. This means it's failing to update. If the blue screen takes a litte while then it's OK. 
+- You only need the single file you want to update,  so if you just want to update "Store Configuration" only add 1_English.JPG to the DWIN_SET folder and nothing else.
