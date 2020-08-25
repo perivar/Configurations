@@ -506,17 +506,22 @@
   //#define DEFAULT_Ki 2.25
   //#define DEFAULT_Kd 440
 
+  // Anet A8 settings
+  //#define  DEFAULT_Kp 28.35 
+  //#define  DEFAULT_Ki 2.37  
+  //#define  DEFAULT_Kd 84.76 
+
+  // Zonestar P802 M shipped PID settings with Repetier Firmware 1.6
+  //#define DEFAULT_Kp 7
+  //#define DEFAULT_Ki 2
+  //#define DEFAULT_Kd 40
+
   // Zonestar P802M Standard Extruder at 210 Degree Celsius and 100% Fan
   //(measured after M106 S255 with M303 E0 S210 C8)
   // Check https://reprap.org/wiki/PID_Tuning
-    #define DEFAULT_Kp 11.57
-    #define DEFAULT_Ki 0.48
-    #define DEFAULT_Kd 70.13
-
-    // Zonestar P802 M shipped PID settings
-    //#define DEFAULT_Kp 7
-    //#define DEFAULT_Ki 2
-    //#define DEFAULT_Kd 40
+  #define DEFAULT_Kp 15.04
+  #define DEFAULT_Ki 0.67
+  #define DEFAULT_Kd 84.42
 
 #endif // PIDTEMP
 
